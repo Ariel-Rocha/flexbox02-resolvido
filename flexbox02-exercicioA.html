@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício Flexbox</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      padding: 10px;
+      margin: 10px;
+      background-color: #e0e0e0;
+      height: 80px;
+    }
+
+    .container div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      font-size: 20px;
+      color: white;
+    }
+
+    .blue { background-color: #2a9d8f; }
+    .dark-blue { background-color: #264653; }
+    .red { background-color: #e76f51; }
+    .yellow { background-color: #f4a261; }
+
+    /* Definições dos alinhamentos para cada container */
+    .container1 {
+      justify-content: flex-start;
+    }
+
+    .container2 {
+      justify-content: flex-end;
+    }
+
+    .container3 {
+      justify-content: center;
+    }
+
+    .container4 {
+      justify-content: space-between;
+    }
+
+    .container5 {
+      justify-content: space-around;
+    }
+
+    .container6 {
+      justify-content: space-evenly;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container container1">
+    <div class="blue">1</div>
+    <div class="dark-blue">2</div>
+    <div class="red">3</div>
+    <div class="yellow">4</div>
+  </div>
+
+  <div class="container container2">
+    <div class="blue">1</div>
+    <div class="dark-blue">2</div>
+    <div class="red">3</div>
+    <div class="yellow">4</div>
+  </div>
+
+  <div class="container container3">
+    <div class="blue">1</div>
+    <div class="dark-blue">2</div>
+    <div class="red">3</div>
+    <div class="yellow">4</div>
+  </div>
+
+  <div class="container container4">
+    <div class="blue">1</div>
+    <div class="dark-blue">2</div>
+    <div class="red">3</div>
+    <div class="yellow">4</div>
+  </div>
+
+  <div class="container container5">
+    <div class="blue">1</div>
+    <div class="dark-blue">2</div>
+    <div class="red">3</div>
+    <div class="yellow">4</div>
+  </div>
+
+  <div class="container container6">
+    <div class="blue">1</div>
+    <div class="dark-blue">2</div>
+    <div class="red">3</div>
+    <div class="yellow">4</div>
+  </div>
+
+</body>
+</html>
