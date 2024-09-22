@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Flexbox</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container-desafio {
+      display: flex;
+      justify-content: flex-start; /* Alinha os itens à esquerda */
+      padding: 0; /* Remove o espaçamento interno */
+      margin: 0; /* Remove a margem */
+      background-color: #e0e0e0;
+      height: 80px;
+    }
+
+    .container-desafio div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      color: white;
+    }
+
+    .yellow { background-color: #f4a261; }
+    .red { background-color: #e76f51; }
+    .dark-blue { background-color: #264653; }
+    .blue { background-color: #2a9d8f; }
+  </style>
+</head>
+<body>
+
+  <div class="container-desafio">
+    <div class="yellow">4</div>
+    <div class="red">3</div>
+    <div class="dark-blue">2</div>
+    <div class="blue">1</div>
+  </div>
+
+</body>
+</html>
