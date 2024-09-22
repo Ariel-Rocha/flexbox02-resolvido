@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício Flexbox B</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container-exercicioB {
+      display: flex;
+      flex-direction: column-reverse; /* Alinha os itens em coluna e inverte a ordem */
+      justify-content: flex-start;
+      padding: 10px;
+      margin: 10px;
+      background-color: #e0e0e0;
+      height: 400px; /* Altura para acomodar os itens */
+      width: 100px; /* Largura fixa para manter o alinhamento */
+    }
+
+    .container-exercicioB div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      font-size: 20px;
+      color: white;
+    }
+
+    .blue { background-color: #2a9d8f; }
+    .dark-blue { background-color: #264653; }
+    .red { background-color: #e76f51; }
+    .yellow { background-color: #f4a261; }
+  </style>
+</head>
+<body>
+
+  <div class="container-exercicioB">
+    <div class="yellow">4</div>
+    <div class="red">3</div>
+    <div class="dark-blue">2</div>
+    <div class="blue">1</div>
+  </div>
+
+</body>
+</html>
